@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eigenvalue on Orion Illovsky&#39;s Data Analysis Projects</title>
-    <link>https://meorion.github.io/tags/eigenvalue/</link>
+    <link>http://localhost:1313/tags/eigenvalue/</link>
     <description>Recent content in Eigenvalue on Orion Illovsky&#39;s Data Analysis Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://meorion.github.io/tags/eigenvalue/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/eigenvalue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dimensionality Reduction of Patient Medical Data Using Principal Component Analysis (PCA)</title>
-      <link>https://meorion.github.io/post/projects/pca/</link>
+      <link>http://localhost:1313/post/projects/pca/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://meorion.github.io/post/projects/pca/</guid>
+      <guid>http://localhost:1313/post/projects/pca/</guid>
       <description>Dimensionality Reduction of Patient Medical Data Using Principal Component Analysis (PCA) Description This project aimed to reduce the complexity and redundancy in a dataset of patient medical records while preserving essential information.</description>
     </item>
     <item>
       <title>Data Cleaning and Principal Component Analysis of Patient Medical Records</title>
-      <link>https://meorion.github.io/post/projects/cleaning-pca/</link>
+      <link>http://localhost:1313/post/projects/cleaning-pca/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://meorion.github.io/post/projects/cleaning-pca/</guid>
+      <guid>http://localhost:1313/post/projects/cleaning-pca/</guid>
       <description>Data Cleaning and Principal Component Analysis of Patient Medical Records Description This project focused on preparing a dataset of 10,000 patient medical records for analysis. The data contained missing values, inconsistencies, and potential outliers that needed to be addressed to ensure data quality and accurate insights.</description>
     </item>
   </channel>
