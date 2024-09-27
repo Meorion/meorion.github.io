@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Storytelling on Orion Illovsky&#39;s Data Analysis Projects</title>
-    <link>https://meorion.github.io/tags/storytelling/</link>
+    <link>http://localhost:1313/tags/storytelling/</link>
     <description>Recent content in Storytelling on Orion Illovsky&#39;s Data Analysis Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://meorion.github.io/tags/storytelling/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/storytelling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Dashboard and Storytelling with Tableau, Hospital Readmission Rates</title>
-      <link>https://meorion.github.io/post/projects/tableau/</link>
+      <link>http://localhost:1313/post/projects/tableau/</link>
       <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://meorion.github.io/post/projects/tableau/</guid>
+      <guid>http://localhost:1313/post/projects/tableau/</guid>
       <description>Data Dashboard and Storytelling with Tableau: Hospital Readmission Rates Description This project involved developing an interactive Tableau dashboard to explore the impact of state population on hospital readmission rates. The goal was to create a compelling and accessible data visualization that would effectively communicate insights to executive leaders and inform decision-making.</description>
     </item>
   </channel>
