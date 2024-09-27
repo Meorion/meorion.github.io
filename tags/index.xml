@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Orion Illovsky&#39;s Data Analysis Projects</title>
+    <link>https://meorion.github.io/tags/</link>
+    <description>Recent content in Tags on Orion Illovsky&#39;s Data Analysis Projects</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://meorion.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ARIMA</title>
+      <link>https://meorion.github.io/tags/arima/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/tags/arima/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Storytelling</title>
+      <link>https://meorion.github.io/tags/storytelling/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/tags/storytelling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tableau</title>
+      <link>https://meorion.github.io/tags/tableau/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/tags/tableau/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Postgres</title>
+      <link>https://meorion.github.io/tags/postgres/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/tags/postgres/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sql</title>
+      <link>https://meorion.github.io/tags/sql/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/tags/sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Keras</title>
+      <link>https://meorion.github.io/tags/keras/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/tags/keras/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nlp</title>
+      <link>https://meorion.github.io/tags/nlp/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/tags/nlp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sentiment Analysis</title>
+      <link>https://meorion.github.io/tags/sentiment-analysis/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/tags/sentiment-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Regression</title>
+      <link>https://meorion.github.io/tags/regression/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/tags/regression/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scikit-Learn</title>
+      <link>https://meorion.github.io/tags/scikit-learn/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/tags/scikit-learn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kmeans</title>
+      <link>https://meorion.github.io/tags/kmeans/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/tags/kmeans/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eigenvalue</title>
+      <link>https://meorion.github.io/tags/eigenvalue/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/tags/eigenvalue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PCA</title>
+      <link>https://meorion.github.io/tags/pca/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/tags/pca/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Cleaning</title>
+      <link>https://meorion.github.io/tags/data-cleaning/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/tags/data-cleaning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MBA</title>
+      <link>https://meorion.github.io/tags/mba/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/tags/mba/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EDA</title>
+      <link>https://meorion.github.io/tags/eda/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/tags/eda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scipy.stats</title>
+      <link>https://meorion.github.io/tags/scipy.stats/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/tags/scipy.stats/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Newsletter</title>
+      <link>https://meorion.github.io/tags/newsletter/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/tags/newsletter/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

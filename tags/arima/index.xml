@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ARIMA on Orion Illovsky&#39;s Data Analysis Projects</title>
+    <link>https://meorion.github.io/tags/arima/</link>
+    <description>Recent content in ARIMA on Orion Illovsky&#39;s Data Analysis Projects</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://meorion.github.io/tags/arima/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forecasting Healthcare Revenue with ARIMA Time Series Modeling</title>
+      <link>https://meorion.github.io/post/projects/arima/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/post/projects/arima/</guid>
+      <description>Forecasting Healthcare Revenue with ARIMA Time Series Modeling Description This project aimed to develop a reliable forecasting model to predict monthly revenue for a healthcare organization. Leveraging the SARIMAX model (a more general form of ARIMA) in Python, I analyzed two years of historical daily revenue data.</description>
+    </item>
+  </channel>
+</rss>

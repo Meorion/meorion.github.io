@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Orion Illovsky&#39;s Data Analysis Projects</title>
+    <link>https://meorion.github.io/post/</link>
+    <description>Recent content on Orion Illovsky&#39;s Data Analysis Projects</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://meorion.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forecasting Healthcare Revenue with ARIMA Time Series Modeling</title>
+      <link>https://meorion.github.io/post/projects/arima/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/post/projects/arima/</guid>
+      <description>Forecasting Healthcare Revenue with ARIMA Time Series Modeling Description This project aimed to develop a reliable forecasting model to predict monthly revenue for a healthcare organization. Leveraging the SARIMAX model (a more general form of ARIMA) in Python, I analyzed two years of historical daily revenue data.</description>
+    </item>
+    <item>
+      <title>Data Dashboard and Storytelling with Tableau, Hospital Readmission Rates</title>
+      <link>https://meorion.github.io/post/projects/tableau/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/post/projects/tableau/</guid>
+      <description>Data Dashboard and Storytelling with Tableau: Hospital Readmission Rates Description This project involved developing an interactive Tableau dashboard to explore the impact of state population on hospital readmission rates. The goal was to create a compelling and accessible data visualization that would effectively communicate insights to executive leaders and inform decision-making.</description>
+    </item>
+    <item>
+      <title>PostgreSQL Database Management and Data Acquisition</title>
+      <link>https://meorion.github.io/post/projects/postgres/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/post/projects/postgres/</guid>
+      <description>PostgreSQL Database Management and Data Acquisition Description This project involved using PostgreSQL and SQL to manage and analyze a dataset of hospital readmissions. My goal was to efficiently prepare the data for further analysis and visualization in Tableau.</description>
+    </item>
+    <item>
+      <title>Sentiment Analysis of Movie Reviews Using a Feedforward Neural Network</title>
+      <link>https://meorion.github.io/post/projects/sentiment/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/post/projects/sentiment/</guid>
+      <description>Sentiment Analysis of Movie Reviews Using a Feedforward Neural Network Description This project aimed to build a machine learning model capable of predicting the sentiment (positive or negative) of movie reviews.</description>
+    </item>
+    <item>
+      <title>Predicting Hospital Length of Stay Using Multiple Linear Regression</title>
+      <link>https://meorion.github.io/post/projects/mult-lin-reg/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/post/projects/mult-lin-reg/</guid>
+      <description>Predicting Hospital Length of Stay Using Multiple Linear Regression Description This project aimed to identify the key factors that influence the length of hospital stay for patients. Using a dataset of 10,000 medical records, I built a multiple linear regression model in Python to predict the number of days a patient would be hospitalized based on factors like demographics, medical history, and treatment details.</description>
+    </item>
+    <item>
+      <title>Predicting Hospital Readmission Using Logistic Regression</title>
+      <link>https://meorion.github.io/post/projects/log-reg/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/post/projects/log-reg/</guid>
+      <description>Predicting Hospital Readmission Using Logistic Regression Description This project aimed to identify the factors influencing the likelihood of a patient being readmitted to the hospital within 30 days of discharge.</description>
+    </item>
+    <item>
+      <title>Identifying Distinct Patient Groups Using K-means Clustering</title>
+      <link>https://meorion.github.io/post/projects/kmeans/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/post/projects/kmeans/</guid>
+      <description>Identifying Distinct Patient Groups Using K-means Clustering Description This project aimed to segment patients into distinct groups based on key healthcare metrics using K-means clustering, an unsupervised machine learning algorithm.</description>
+    </item>
+    <item>
+      <title>Dimensionality Reduction of Patient Medical Data Using Principal Component Analysis (PCA)</title>
+      <link>https://meorion.github.io/post/projects/pca/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/post/projects/pca/</guid>
+      <description>Dimensionality Reduction of Patient Medical Data Using Principal Component Analysis (PCA) Description This project aimed to reduce the complexity and redundancy in a dataset of patient medical records while preserving essential information.</description>
+    </item>
+    <item>
+      <title>Market Basket Analysis of Computer Accessory Purchases</title>
+      <link>https://meorion.github.io/post/projects/mba/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/post/projects/mba/</guid>
+      <description>Market Basket Analysis of Computer Accessory Purchases Description This project aimed to uncover purchasing patterns and associations between computer accessories using Market Basket Analysis (MBA). I applied the Apriori algorithm to a dataset of customer transactions from an online computer retailer.</description>
+    </item>
+    <item>
+      <title>Data Cleaning and Principal Component Analysis of Patient Medical Records</title>
+      <link>https://meorion.github.io/post/projects/cleaning-pca/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/post/projects/cleaning-pca/</guid>
+      <description>Data Cleaning and Principal Component Analysis of Patient Medical Records Description This project focused on preparing a dataset of 10,000 patient medical records for analysis. The data contained missing values, inconsistencies, and potential outliers that needed to be addressed to ensure data quality and accurate insights.</description>
+    </item>
+    <item>
+      <title>Exploring the Relationship Between Vitamin D Levels and Hospital Readmissions</title>
+      <link>https://meorion.github.io/post/projects/eda-vitd/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://meorion.github.io/post/projects/eda-vitd/</guid>
+      <description>Exploring the Relationship Between Vitamin D Levels and Hospital Readmissions Description This project investigated whether a relationship exists between a patient&amp;rsquo;s Vitamin D levels and their likelihood of being readmitted to the hospital within 30 days of discharge.</description>
+    </item>
+  </channel>
+</rss>

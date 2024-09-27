@@ -1,0 +1,116 @@
+-- Data Cleaning. Rename the hignblood column
+ALTER TABLE patient
+    RENAME COLUMN hignblood TO highblood;
+-- Creating table. 
+-- create the table on the LOD machine
+CREATE TABLE IF NOT EXISTS public.census (
+    Zip integer,
+    Population integer,
+    CONSTRAINT census_pkey PRIMARY KEY (Zip)
+);
+-- ensure the system account has admin access to the table
+ALTER TABLE IF EXISTS public.census OWNER to postgres;
+-- In pgAdmin, the SQL code outputted by the gui import data tool. Filename and location should be verified or modified to match environment
+command " " \ \ copy public.census (zip, population)
+FROM 'C:/Users/LabUser/DOWNLO~1/D211_C~1.CSV' DELIMITER ',' CSV HEADER QUOTE '\"' ESCAPE '''';
+"" -- In Tableau SQL Custom Query get just the columns needed for the dashboard creation. Include readmission
+SELECT CAST(l.city AS TEXT) AS city,
+    CAST(l.county AS TEXT) AS county,
+    l.location_id,
+    c.population,
+    CAST(l.state AS TEXT) AS state,
+    c.zip AS zip_census,
+    l.zip,
+    p.patient_id,
+    p.age AS patient_age,
+    p.readmis
+FROM public.location AS l
+    LEFT JOIN public.census AS c ON l.zip = c.zip
+    FULL OUTER JOIN public.patient AS p ON l.location_id = p.location_id -- An alternate approach. Include the added State column.
+    /*CREATE TABLE IF NOT EXISTS public.census 
+     (
+     State text,
+     Zip integer,
+     Population integer,
+     CONSTRAINT census_pkey PRIMARY KEY (State)
+     ) 
+     TABLESPACE pg_default;
+     ALTER TABLE IF EXISTS public.census OWNER to postgres;
+     
+     
+     
+     
+     -- join with all the tables
+     SELECT "patient"."additional_charges" AS "additional_charges",
+     "admission"."admins_id" AS "admins_id",
+     "patient"."admis_id" AS "admis_id",
+     "patient"."age" AS "age",
+     CAST("servicesaddon"."allergic_rhinitis" AS TEXT) AS "allergic_rhinitis",
+     CAST("servicesaddon"."anxiety" AS TEXT) AS "anxiety",
+     CAST("servicesaddon"."arthritis" AS TEXT) AS "arthritis",
+     CAST("servicesaddon"."asthma" AS TEXT) AS "asthma",
+     CAST("servicesaddon"."backpain" AS TEXT) AS "backpain",
+     "patient"."children" AS "children",
+     CAST("location"."city" AS TEXT) AS "city",
+     "patient"."compl_id" AS "compl_id",
+     "complication"."complication_id" AS "complication_id",
+     CAST("complication"."complication_risk" AS TEXT) AS "complication_risk",
+     CAST("location"."county" AS TEXT) AS "county",
+     CAST("servicesaddon"."diabetes" AS TEXT) AS "diabetes",
+     "patient"."doc_visits" AS "doc_visits",
+     "patient"."full_meals" AS "full_meals",
+     CAST("patient"."gender" AS TEXT) AS "gender",
+     CAST("patient"."hignblood" AS TEXT) AS "highblood",
+     CAST("servicesaddon"."hyperlipidemia" AS TEXT) AS "hyperlipidemia",
+     "patient"."income" AS "income",
+     CAST("admission"."initial_admission" AS TEXT) AS "initial_admission",
+     "patient"."initial_days" AS "initial_days",
+     "survey_responses_addon"."item1" AS "item1",
+     "survey_responses_addon"."item2" AS "item2",
+     "survey_responses_addon"."item3" AS "item3",
+     "survey_responses_addon"."item4" AS "item4",
+     "survey_responses_addon"."item5" AS "item5",
+     "survey_responses_addon"."item6" AS "item6",
+     "survey_responses_addon"."item7" AS "item7",
+     "survey_responses_addon"."item8" AS "item8",
+     "job"."job_id" AS "job_id (job)",
+     "patient"."job_id" AS "job_id",
+     CAST("job"."job_title" AS TEXT) AS "job_title",
+     "patient"."lat" AS "lat",
+     "patient"."lng" AS "lng",
+     "location"."location_id" AS "location_id (location)",
+     "patient"."location_id" AS "location_id",
+     CAST("patient"."marital" AS TEXT) AS "marital",
+     CAST("servicesaddon"."overweight" AS TEXT) AS "overweight",
+     CAST("servicesaddon"."patient_id" AS TEXT) AS "patient_id (servicesaddon)",
+     CAST("survey_responses_addon"."patient_id" AS TEXT) AS "patient_id 
+     (survey_responses_addon)",
+     CAST("patient"."patient_id" AS TEXT) AS "patient_id",
+     "patient"."population" AS "population",
+     CAST("patient"."readmis" AS TEXT) AS "readmis",
+     CAST("servicesaddon"."reflux_esophagitis" AS TEXT) AS "reflux_esophagitis",
+     CAST("servicesaddon"."services" AS TEXT) AS "services",
+     CAST("patient"."soft_drink" AS TEXT) AS "soft_drink",
+     CAST("location"."state" AS TEXT) AS "state",
+     CAST("patient"."stroke" AS TEXT) AS "stroke",
+     "patient"."totalcharge" AS "totalcharge",
+     "patient"."vitd_levels" AS "vitd_levels",
+     "patient"."vitd_supp" AS "vitd_supp",
+     "location"."zip" AS "zip" census.zip AS zip_census
+     FROM "public"."patient" "patient"
+     LEFT JOIN public.census on location.zip = census.zip
+     INNER JOIN "public"."census" "census" ON ()
+     INNER JOIN "public"."admission" "admission" ON ("patient"."admis_id" = "admission"."admins_id")
+     INNER JOIN "public"."complication" "complication" ON (
+     "patient"."compl_id" = "complication"."complication_id"
+     )
+     INNER JOIN "public"."job" "job" ON ("patient"."job_id" = "job"."job_id")
+     INNER JOIN "public"."location" "location" ON (
+     "patient"."location_id" = "location"."location_id"
+     )
+     INNER JOIN "public"."servicesaddon" "servicesaddon" ON (
+     "patient"."patient_id" = CAST("servicesaddon"."patient_id" AS TEXT)
+     )
+     INNER JOIN "public"."survey_responses_addon" "survey_responses_addon" ON (
+     "patient"."patient_id" = CAST("survey_responses_addon"."patient_id" AS TEXT)
+     )*/
