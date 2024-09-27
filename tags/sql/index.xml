@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sql on Orion Illovsky&#39;s Data Analysis Projects</title>
-    <link>http://localhost:1313/tags/sql/</link>
+    <link>https://meorion.github.io/tags/sql/</link>
     <description>Recent content in Sql on Orion Illovsky&#39;s Data Analysis Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://meorion.github.io/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PostgreSQL Database Management and Data Acquisition</title>
-      <link>http://localhost:1313/post/projects/postgres/</link>
+      <link>https://meorion.github.io/post/projects/postgres/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/projects/postgres/</guid>
+      <guid>https://meorion.github.io/post/projects/postgres/</guid>
       <description>PostgreSQL Database Management and Data Acquisition Description This project involved using PostgreSQL and SQL to manage and analyze a dataset of hospital readmissions. My goal was to efficiently prepare the data for further analysis and visualization in Tableau.</description>
     </item>
   </channel>
